@@ -1,0 +1,81 @@
+body{
+    background:  url('Water.jpg') no-repeat ;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    text-align: center;
+  animation-name: change;
+  animation-duration: 2s;
+  vertical-align: middle;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes change {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75%  {background-color: cornsilk;}
+    100% {background-color: green;}
+  }
+
+
+.stars {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+  }
+
+  .star-1 {
+    margin-top: 0%;
+    margin-left: 30%;
+    animation-duration: 1s;
+    animation-name: twinkle;
+  }
+
+  .star-2 {
+    margin-top: 5%;
+    margin-left: 80%;
+    animation-duration: 1.2s;
+    animation-name: twinkle;
+  }
+
+  .star-3 {
+    margin-top: 5%;
+    margin-left: 15%;
+    animation-duration: 1.4s;
+    animation-name: twinkle;
+  }
+
+  .star-4 {
+    margin-top: 5%;
+    margin-left: 40%;
+    animation-duration: 1s;
+    animation-name: twinkle;
+  }
+
+  .star-5 {
+    margin-top: 0%;
+    margin-left: 70%;
+    animation-duration: 1.2s;
+    animation-name: twinkle;
+  }
+
+  .star-6 {
+    margin-top: 0%;
+    margin-left: 20%;
+    animation-duration: 1.4s;
+    animation-name: twinkle;
+  }
+
+  @keyframes twinkle {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }

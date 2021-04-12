@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+        <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
+    </head>
+    <body>
+
+        <div class="back-ground">
+         <img
+          class="demo-bg"
+          src="night.jpg"
+          alt="cool"
+        >
+        <div class="demo-content">
+          <form action="#" class="form" method="post" id="login" style="border:1px solid #ccc" >
+
+            
+                <div class="container">
+                  <h1>Login</h1>
+                  <div class="form-message  message-error"></div>
+                   <label for="email"><b>Email</b></label>
+                  <input id="email"  type="email" autofocus placeholder="Enter Email" name="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input id="password" type="password" autofocus placeholder="Enter Password" name="psw" >
+
+            <button type="submit" id="submit">Login</button>
+            <p class="form-text" >
+                <a id="linkCreateAccount" class="form-link">Don't have an account? Create account</a>
+            </p>
+            
+          </form>
+         
+          
+
+               </div>
+
+                <form action="#" class="form form-hidden" method="post" id="signup" style="border:1px solid #ccc" >
+
+            
+                <div class="container">
+                  <h1>Sign Up</h1>
+                  <div class="form-message message-error"></div>
+    
+                  <label for="name"><b>Name</b></label>
+                  <input id="name"  type="text" autofocus placeholder="Enter name" name="name" required>
+    
+                   <label for="email"><b>Email</b></label>
+                  <input id="email"  type="email" autofocus placeholder="Enter Email" name="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input id="password" type="password" autofocus placeholder="Enter Password" name="psw" required>
+    
+            <button type="submit" id="submit">Submit</button>
+            <p class="form-text" >
+                <a id="linkLogin" class="form-link">Already have an account? Sign in</a>
+            </p>
+            
+          </form>
+     
+
+        </div>
+
+        
+
+    
+    
+
+    <script src="main.js" ></script>
+
+    </body>
+</html>
