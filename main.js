@@ -84,7 +84,7 @@ console.log(password);
         //displayAlert("Invalid username/password combination")
 	setFormMessage(loginForm, "error", "Invalid email/password combination");
     } else{
-        location.href = '../Home/index.html'
+        location.href = '\index (2).html'
     }
 }
 
@@ -115,7 +115,7 @@ name
       //  displayAlert(res.error)
 	setFormMessage(signupForm ,"error", "An Error Occurred While Signing up");
     } else{
-        location.href = '../Home/index.html'
+        location.href = '\index (2).html'
     }
 
 }
