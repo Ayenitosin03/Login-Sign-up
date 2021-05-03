@@ -79,7 +79,7 @@ name
       //  displayAlert(res.error)
 	setFormMessage(signupForm ,"error", "An Error Occurred While Signing up");
     } else{
-        location.href = '\index (home).html'
+        location.href = '\home.html'
     }
 
 }
